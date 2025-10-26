@@ -1,0 +1,82 @@
+.section-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-block: 140px;
+    background-color: #ffffff;
+    z-index: 2;
+    @media only screen and (0 <= width <= 479px) {
+        padding-top: 80px;
+    }
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__text {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        gap: 40px;
+        @media only screen and (0 <= width <= 479px) {
+            gap: 10px;
+            padding-inline: 10px;
+        }
+    }
+    &__text-line {
+        position: relative;
+        height: 0.05em;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.60);
+        @media only screen and (0 <= width <= 479px) {
+            width: 120px;
+        }
+    }
+    &__p {
+        position: relative;
+        font-weight: 500;
+        font-size: 22px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    &__agents-slider-layout {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        margin-top: 60px;
+        padding-left: 20px;
+        @media only screen and (0 <= width <= 479px) {
+            padding-left: 6px;
+            margin-top: 40px;
+        }
+    }
+    &__agents-slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    &__agents-slide {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 100%;
+    }
+    &__agents-slider-img {
+        width: 100%;
+    }
+}

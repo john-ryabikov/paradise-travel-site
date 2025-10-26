@@ -1,0 +1,49 @@
+.section-6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    padding-block: 120px;
+    @media only screen and (0 <= width <= 479px) {
+        padding-bottom: 40px;
+    }
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__title-h4 {
+        position: relative;
+        width: 100%;
+        font-weight: 800;
+        font-size: 44px;
+        text-align: center;
+        color: #303030;
+        margin-bottom: 20px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 40px;
+            width: 100%;
+            padding-inline: 0;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+    &__main-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 760px;
+        height: 1000px;
+        margin-top: 60px;
+        @media only screen and (min-width: 321px) and (max-width: 480px) {
+            width: 90%;
+            height: 1100px;
+        }
+    }
+}

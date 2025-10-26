@@ -1,0 +1,85 @@
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-block: 40px;
+    background-color: #1b1b1b;
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #838383;
+        @media only screen and (0 <= width <= 479px) {
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
+    }
+    &__img {
+        position: relative;
+        width: 500px;
+        margin-top: 20px;
+        img {
+            width: 100%;
+
+        }
+        @media only screen and (0 <= width <= 479px) {
+            width: 100%;
+        }
+    }
+    &__info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    &__author {
+        position: relative;
+        font-weight: 200;
+        text-align: center;
+        color: #696969;
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 20px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 12px;
+        }
+    }
+    &__author-link {
+        font-weight: 300;
+        color: #b3b3b3;
+        cursor: pointer;
+        transition: all 0.4s;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__copyrights {
+        position: relative;
+        font-weight: 200;
+        text-align: center;
+        color: #696969;
+        font-size: 14px;
+        line-height: 20px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 12px;
+        }
+    }
+    &__copyrights-link {
+        font-weight: 300;
+        color: #b3b3b3;
+        cursor: pointer;
+        transition: all 0.4s;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}

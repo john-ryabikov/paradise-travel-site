@@ -1,0 +1,66 @@
+.section-3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    background-color: #ffffff;
+    padding-bottom: 120px;
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__title-h2 {
+        position: relative;
+        width: 100%;
+        font-weight: 800;
+        font-size: 44px;
+        text-align: center;
+        color: #303030;
+        margin-bottom: 80px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 40px;
+            width: 100%;
+            padding-inline: 0;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+    }
+    &__prems {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        @media only screen and (0 <= width <= 479px) {
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 60px;
+        }
+    }
+    &__prem-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    &__prem-card-icon {
+        width: 100px;
+        height: 100px;
+    }
+    &__prem-card-text {
+        position: relative;
+        font-weight: 300;
+        color: #303030;
+        font-size: 14px;
+        text-align: center;
+        line-height: 150%;
+    }
+}

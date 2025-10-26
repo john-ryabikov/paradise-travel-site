@@ -1,0 +1,45 @@
+.button-popup {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-width: 280px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0549019608), 0 -1px rgba(255, 255, 255, 0.5019607843);
+    color: #ffffff;
+    background: linear-gradient(to top left, #d9bc00 0%, #b49f13 100%);
+    transition: all 0.4s;
+    @media only screen and (0 <= width <= 479px) {
+        width: 100%;
+    }
+    &:hover {
+        transform: scale(1.06, 1.06);
+    }
+    &__btn-cont {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    &_call {
+        position: relative;
+        box-shadow: none;
+        font-weight: 700;
+        padding: 2px 14px;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #b49f13;
+        border-radius: 50px;
+        transition: all 0.4s;
+        &:hover {
+            transform: scale(1.02, 1.02);
+        }
+    }
+}
+
+.second {
+    background: linear-gradient(to top left, #880022 0%, #cc0033 100%);
+}

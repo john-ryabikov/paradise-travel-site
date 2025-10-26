@@ -1,0 +1,165 @@
+.section-5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    @media only screen and (0 <= width <= 479px) {
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__title-h4 {
+        position: relative;
+        width: 100%;
+        font-weight: 800;
+        font-size: 44px;
+        text-align: center;
+        color: #303030;
+        margin-bottom: 20px;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 40px;
+            width: 100%;
+            padding-inline: 0;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+    }
+    &__subtitle {
+        position: relative;
+        font-weight: 300;
+        color: #303030;
+        font-size: 20px;
+        text-align: center;
+        line-height: 150%;
+        margin-bottom: 50px;
+        width: 820px;
+        span {
+            font-weight: 800;
+            color: #CC0033;
+        }
+        @media only screen and (0 <= width <= 479px) {
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+    &__allcrew {
+        position: relative;
+        width: 100%;
+        margin-top: 40px;
+        border-radius: 25px;
+        box-shadow: 0 10px 20px #44444480, 0 -1px #ffffff80;
+    }
+    &__crew {
+        position: relative;
+        overflow-x: auto;
+        scrollbar-width: none;
+        margin-top: 80px;
+        width: 100%;
+        @media only screen and (0 <= width <= 479px) {
+            width: 100vw;
+            height: 460px;
+        }
+    }
+    &__crew-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: auto;
+        width: 100%;
+        @media only screen and (0 <= width <= 479px) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            overflow-x: auto;
+            width: auto;
+            padding-right: 0;
+            padding-top: 3px;
+        }
+    }
+    &__crew-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 290px;
+        height: 100%;
+        @media only screen and (0 <= width <= 479px) {
+            width: 270px;
+        }
+    }
+    &__crew-img {
+        position: relative;
+        width: 238px;
+        height: 280px;
+        margin-bottom: 20px;
+        filter: drop-shadow(0 6px 5px #00000080);
+    }
+    &__crew-name {
+        position: relative;
+        font-weight: 800;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    &__crew-spec {
+        position: relative;
+        font-weight: 300;
+        text-align: center;
+        line-height: 150%;
+        margin-top: 10px;
+        color: #303030;
+        font-size: 16px;
+    }
+    &__crew-soc {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 70px;
+    }
+    &__crew-vk {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    &__crew-whatsapp {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        &:hover {
+            opacity: 0.7;
+        }
+    }    
+}    

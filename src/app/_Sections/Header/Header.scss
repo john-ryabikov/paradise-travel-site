@@ -1,0 +1,113 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 130px;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 10;
+    transition: all 0.4s;
+    @media only screen and (0 <= width <= 479px) {
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &__cont {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        position: relative;
+        img {
+            width: 74px;
+            @media only screen and (0 <= width <= 479px) {
+                width: 60px;
+            }
+        }
+    }
+    &__nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 10px;
+        color: #ffffff;
+        @media only screen and (0 <= width <= 479px) {
+            display: none;
+        }
+    }
+    &__nav-links {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        place-items: center start;
+    }
+    &__nav-link {
+        position: relative;
+        padding: 8px 20px 8px 20px;
+        border-radius: 18px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        transition: all 0.4s;
+        &:hover {
+            background-color: hsla(0, 0%, 56%, 0.25);
+        }
+    }
+    &__phone {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        @media only screen and (0 <= width <= 479px) {
+            display: none;
+        }
+    }
+    &__phone-icon {
+        position: relative;
+        width: 32px;
+        margin-right: 20px;
+    }
+    &__phone-cont {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 6px;
+    }
+    &__phone-text-num {
+        font-weight: 800;
+        font-size: 26px;
+        color: #ffffff;
+    }
+    &__menu-btn {
+        position: relative;
+        display: none;
+        @media only screen and (0 <= width <= 479px) {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s;
+            &:active {
+                transform: scale(0.92, 0.92);
+            }
+        }
+    }
+}
+
+.scrolled {
+    background: hsla(0, 0%, 0%, 0.424);
+    backdrop-filter: blur(10px);
+}

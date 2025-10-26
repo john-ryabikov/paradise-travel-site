@@ -1,0 +1,43 @@
+.alert-cookies {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    gap: 26px;    
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background: hsla(0, 0%, 0%, 0.424);
+    backdrop-filter: blur(10px);
+    transition: transform 0.4s;
+    z-index: 99999;
+    &__text {
+        position: relative;
+        width: 660px;
+        font-weight: 200;
+        font-size: 11px;
+        color: #d4d4d4;
+        @media only screen and (0 <= width <= 479px) {
+            font-size: 10px;
+        }
+    }
+    button {
+        position: relative;
+        padding: 10px 30px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+        background: linear-gradient(to top left, #d9bc00 0%, #c5b506 100%);
+        border-radius: 10px;
+        transition: all 0.4s;
+        &:hover {
+            transform: scale(1.06, 1.06);
+        }
+    }
+}
+
+.not-active {
+    transform: translateY(100%);
+}
