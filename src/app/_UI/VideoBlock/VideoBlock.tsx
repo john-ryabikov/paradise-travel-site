@@ -24,7 +24,6 @@ export default function VideoBlock() {
             <ReactPlayer
               url={"/img/Section-1/video-fon.webm"}
               width={!isMobile ? "100vw" : "1500px"}
-              {/* height={"100%"} */}
               playing
               playsInline
               loop
