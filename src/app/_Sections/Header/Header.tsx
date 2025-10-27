@@ -4,6 +4,7 @@ import HeaderLayout from "./HeaderLayout";
 import Container from "@/app/_UI/Container/Container";
 import ButtonPopup from "@/app/_UI/ButtonPopup/ButtonPopup";
 import MenuButton from "./MenuButton";
+import Image from "next/image";
 
 import "./Header.scss"
 
@@ -16,7 +17,7 @@ export default function Header({ typedClass }: Props) {
     <HeaderLayout typedClass={typedClass}>
       <Container typedClass={`${typedClass}__cont wrapper`}>
         <a className={`${typedClass}__logo`} href="#main">
-          <img src="/img/Header/main_logo.svg" alt="Paradise Travel"/>
+          <Image src="/img/Header/main_logo.svg" width={74} height={77} alt="Paradise Travel"/>
         </a>
         <nav className={`${typedClass}__nav`}>
           <ul className={`${typedClass}__nav-links`}>
