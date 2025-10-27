@@ -22,7 +22,8 @@ export default function VideoBlock() {
       {hasWindow && 
         <div className='video-block'>
             <ReactPlayer
-              url={"/img/Section-1/video-fon.webm"}
+              url={"/img/Section-1/video-fon.mp4"}
+              width={"100%"}
               height={"100%"}
               playing
               loop
