@@ -77,5 +77,14 @@ ul {
   object-fit: cover;
   filter: brightness(0.35);
   background-color: #171717;
+  &__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
 }
 

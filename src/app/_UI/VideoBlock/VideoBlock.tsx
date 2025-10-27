@@ -3,7 +3,8 @@
 import { useMediaQuery } from '@/hooks/MediaQuery/useMediaQuery';
 import { useState, useEffect } from 'react'
 
-import ReactPlayer from "react-player"
+// import ReactPlayer from "react-player"
+// import Video from 'next-video';
 
 export default function VideoBlock() {
 
@@ -21,7 +22,7 @@ export default function VideoBlock() {
     <>
       {hasWindow && 
         <div className='video-block'>
-            {!isMobile && (
+            {/* {!isMobile && (
               <ReactPlayer
                 url={"/img/Section-1/video-fon.webm"}
                 width="100%"
@@ -47,7 +48,19 @@ export default function VideoBlock() {
                 }
                }}
               />
-            )}
+            )} */}
+            <video
+              className="video-block__video"
+              controls={false}
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/img/Section-1/video-fon-fallback_screen.jpg"
+            >
+              <source src="/img/Section-1/video-fon.webm" type="video/webm" />
+            </video>
         </div> 
       }
     </>
