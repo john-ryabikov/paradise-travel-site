@@ -23,11 +23,12 @@ export default function VideoBlock() {
         <div className='video-block'>
             <ReactPlayer
               url={"/img/Section-1/video-fon.webm"}
-              width={!isMobile ? "100%" : "1500px"}
-              height={"100%"}
+              width={!isMobile ? "100vw" : "1500px"}
+              {/* height={"100%"} */}
               playing
-              muted
+              playsInline
               loop
+              preload
             />
         </div> 
       }
