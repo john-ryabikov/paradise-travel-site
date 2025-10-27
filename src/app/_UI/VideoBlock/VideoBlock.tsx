@@ -46,7 +46,7 @@ export default function VideoBlock() {
                 }
               }
              }}
-             fallback={<img src={!isMobile ? "/img/Section-1/video-fon-fallback_screen.jpg" : "/img/Section-1/video-fon-fallback_mob.jpg"} alt="video-fon"/>}
+             light={!isMobile ? "/img/Section-1/video-fon-fallback_screen.jpg" : "/img/Section-1/video-fon-fallback_mob.jpg"}
             />
         </div> 
       }
