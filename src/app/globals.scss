@@ -72,12 +72,12 @@ ul {
   align-items: center;
   overflow: hidden;
   width: 100vw;
+  height: 100vh;
   user-select: none;
   object-fit: cover;
   filter: brightness(0.35);
   @media only screen and (0 <= width <= 479px) {
     width: auto;
-    height: 100vh;
   }
 }
 
