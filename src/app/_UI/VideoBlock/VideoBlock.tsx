@@ -23,8 +23,7 @@ export default function VideoBlock() {
         <div className='video-block'>
             <ReactPlayer
               url={"/img/Section-1/video-fon.mp4"}
-              width={"100%"}
-              height={"100%"}
+              style={{ width: '100%', height: 'auto', aspectRatio: '16/9' }}
               playing
               loop
               preload
