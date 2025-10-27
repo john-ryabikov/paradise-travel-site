@@ -13,7 +13,7 @@ export default function AnimatedSection({ children, typedClass, id }: Props) {
         <motion.section 
             className={typedClass}
             id={id}
-            initial={{y: 40, opacity: 0}}
+            initial={{y: id === "main" ? 0 : 40, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             viewport={{once: true}}
             transition={{ delay: 0.45 }}

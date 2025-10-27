@@ -4,6 +4,7 @@ import { Manrope } from "next/font/google";
 import Script from "next/script";
 import VKWidget from "./_UI/VKWidget/VKWidget";
 import YandexMetrika from "./_Metrika/YandexMetrica";
+import PreloadContent from "./_UI/PreloadContent/PreloadContent";
 
 import "./globals.scss";
 
@@ -47,8 +48,9 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={`${manrope.variable}`}>
-        <YandexMetrika id={54927598}/>
+        <PreloadContent/>
         {children}
+        <YandexMetrika id={54927598}/>
         <VKWidget
           communityId={46869821}
           options={{ welcomeScreen: 1 }}
