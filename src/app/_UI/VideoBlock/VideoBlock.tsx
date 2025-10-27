@@ -22,11 +22,15 @@ export default function VideoBlock() {
       {hasWindow && 
         <div className='video-block'>
             <ReactPlayer
-              url={"/img/Section-1/video-fon.mp4"}
-              style={{ width: '100%', height: 'auto', aspectRatio: '16/9' }}
+              url={"/img/Section-1/video-fon.webm"}
+              width="100%"
+              height="100%"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               playing
+              playsInline
               loop
-              preload
+              preload={true}
+              muted
             />
         </div> 
       }
