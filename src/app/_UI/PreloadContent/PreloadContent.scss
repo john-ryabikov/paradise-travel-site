@@ -7,8 +7,15 @@
     overflow: hidden; 
     z-index: -9999;
     content:
+    //Icons
+        url("/img/Icons/send_icon.svg")
+        url("/img/Icons/call_icon.svg")
+        url("/img/Icons/menu_icon.svg")
+        url("/img/Icons/close_icon.svg")
+        url("/img/Icons/checked_icon.svg")
+        url("/img/Popup/plus.svg")
     //Section-1 
-        url("/img/Section-1/video-fon.mp4")
+        url("/img/Section-1/video-fon.webm")
     //Section-2
         url("/img/Section-2/ambotis.jpg")
         url("/img/Section-2/anex.png")
@@ -27,32 +34,25 @@
         url("/img/Section-3/icon_3.png")
         url("/img/Section-3/icon_4.png")
     //Section-4
-        url("/img/Section-4/russia.jpg")
-        url("/img/Section-4/turkey.jpg")
-        url("/img/Section-4/egypt.jpg")
-        url("/img/Section-4/maldiv.jpg")
-        url("/img/Section-4/maldivH.jpg")
-        url("/img/Section-4/oae.jpg")
+    //     url("/img/Section-4/russia.jpg")
+    //     url("/img/Section-4/turkey.jpg")
+    //     url("/img/Section-4/egypt.jpg")
+    //     url("/img/Section-4/maldiv.jpg")
+    //     url("/img/Section-4/maldivH.jpg")
+    //     url("/img/Section-4/oae.jpg")
     //Section-5
-        url("/img/Section-5/paradise_crew.jpg")
-        url("/img/Section-5/sveta_1-1-1.png")
-        url("/img/Section-5/denis_1-1.png")
-        url("/img/Section-5/mila_1-1.png")
-        url("/img/Section-5/evgenya_1-2.png")
+    //     url("/img/Section-5/paradise_crew.jpg")
+    //     url("/img/Section-5/sveta_1-1-1.png")
+    //     url("/img/Section-5/denis_1-1.png")
+    //     url("/img/Section-5/mila_1-1.png")
+    //     url("/img/Section-5/evgenya_1-2.png")
     //Section-7    
-        url("/img/Section-7/location_icon.png")
-        url("/img/Section-7/coffee_icon.png")
+    //     url("/img/Section-7/location_icon.png")
+    //     url("/img/Section-7/coffee_icon.png")
     //Section-8
-        url("/img/Section-8/sber_1.jpg")
-        url("/img/Section-8/home_1.jpg")
-        url("/img/Section-8/tin_1.jpg")
+    //     url("/img/Section-8/sber_1.jpg")
+    //     url("/img/Section-8/home_1.jpg")
+    //     url("/img/Section-8/tin_1.jpg")
     //Footer
-        url("/img/footer/logo-footer.png")
-    //Icons
-        url("/img/Icons/send_icon.svg")
-        url("/img/Icons/call_icon.svg")
-        url("/img/Icons/menu_icon.svg")
-        url("/img/Icons/close_icon.svg")
-        url("/img/Icons/checked_icon.svg")
-        url("/img/Popup/plus.svg")
+    //     url("/img/footer/logo-footer.png")
 }
