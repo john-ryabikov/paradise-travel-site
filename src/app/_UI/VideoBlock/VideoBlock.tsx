@@ -22,7 +22,7 @@ export default function VideoBlock() {
       {hasWindow && 
         <div className='video-block'>
             <ReactPlayer
-              url={"/img/Section-1/video-fon.mp4"}
+              url={"/img/Section-1/video-fon.webm"}
               width={!isMobile ? "100%" : "1500px"}
               height={"100%"}
               playing
