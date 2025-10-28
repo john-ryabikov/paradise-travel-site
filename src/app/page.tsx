@@ -13,8 +13,8 @@ import Footer from "./_Sections/Footer/Footer";
 export default function MainPage() {
 
   return (
+      <Header typedClass="header"/>
       <MainContainer>
-        <Header typedClass="header"/>
         <Section_1 typedClass="section-1"/>
         <Section_2 typedClass="section-2"/>
         <Section_3 typedClass="section-3"/>
