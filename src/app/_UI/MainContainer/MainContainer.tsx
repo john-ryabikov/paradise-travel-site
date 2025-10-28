@@ -6,7 +6,7 @@ import { useLayoutEffect } from "react"
 import Popup from "@/app/_Sections/Popup/Popup"
 import MenuMobile from "../MenuMobile/MenuMobile"
 import Alerts from "../Alerts/Alerts"
-import AnimatedMain from "../AnimatedTags/AnimatedMain"
+// import AnimatedMain from "../AnimatedTags/AnimatedMain"
 import AlertCookies from "../AlertCookies/AlertCookies"
 
 export default function MainContainer({ children }: Readonly<{children: React.ReactNode}>){
@@ -18,12 +18,12 @@ export default function MainContainer({ children }: Readonly<{children: React.Re
     }, [])
 
     return (
-        <AnimatedMain typedClass={`main-page`}>
+        <main className={`main-page`}>
             <AlertCookies/>
             <Alerts/>
             {showPopup && <Popup/>}
             <MenuMobile typedClass="menu-mobile"/>
             {children}
-        </AnimatedMain>
+        </main>
     )
 }
