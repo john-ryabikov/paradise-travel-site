@@ -13,6 +13,7 @@ import Footer from "./_Sections/Footer/Footer";
 export default function MainPage() {
 
   return (
+    <>
       <Header typedClass="header"/>
       <MainContainer>
         <Section_1 typedClass="section-1"/>
@@ -25,5 +26,6 @@ export default function MainPage() {
         <Section_8 typedClass="section-8"/>
         <Footer typedClass="footer"/>
       </MainContainer>
+    </>
   )
 }
