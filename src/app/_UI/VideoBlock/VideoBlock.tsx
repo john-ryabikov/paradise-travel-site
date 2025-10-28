@@ -27,7 +27,7 @@ export default function VideoBlock() {
               loop
               playsInline
               preload="metadata"
-              poster={isMobile ? "/img/Section-1/video-fon-fallback_mob.webp" : "/img/Section-1/video-fon-fallback_screen.webp"}
+              poster={isMobile ? "/img/Section-1/video-fon-fallback_mob.jpg" : "/img/Section-1/video-fon-fallback_screen.jpg"}
             >
               <source src="/img/Section-1/video-fon.webm" type="video/webm" />
             </video>
