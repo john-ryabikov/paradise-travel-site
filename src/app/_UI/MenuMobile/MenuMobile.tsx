@@ -26,7 +26,7 @@ export default function MenuMobile({ typedClass }: Props) {
             <div className={`${typedClass}__phone`}>
                 <p className={`${typedClass}__phone-text`}>
                     <img className={`${typedClass}__phone-icon`} src="/img/Icons/call_icon.svg" alt="Icon" />
-                    <span className={`${typedClass}__phone-text-num`}>+7 (925) 369-90-91</span>
+                    <span className={`${typedClass}__phone-text-num`}>+7 (925) 188-88-40</span>
                 </p>
                 <ButtonPopup typedClass="button-popup" cont="Заказать звонок"/>
             </div>
