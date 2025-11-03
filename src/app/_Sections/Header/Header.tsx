@@ -4,7 +4,6 @@ import HeaderLayout from "./HeaderLayout";
 import Container from "@/app/_UI/Container/Container";
 import ButtonPopup from "@/app/_UI/ButtonPopup/ButtonPopup";
 import MenuButton from "./MenuButton";
-import Image from "next/image";
 
 import "./Header.scss"
 
@@ -17,7 +16,7 @@ export default function Header({ typedClass }: Props) {
     <HeaderLayout typedClass={typedClass}>
       <Container typedClass={`${typedClass}__cont wrapper`}>
         <a className={`${typedClass}__logo`} href="#main">
-          <Image src="/img/Header/main_logo.svg" width={74} height={77} alt="Paradise Travel"/>
+          <img src="/img/Header/main_logo.svg" width={74} height={77} alt="Paradise Travel"/>
         </a>
         <nav className={`${typedClass}__nav`}>
           <ul className={`${typedClass}__nav-links`}>
@@ -33,7 +32,7 @@ export default function Header({ typedClass }: Props) {
           <p className={`${typedClass}__phone-cont`}>
             <ButtonPopup 
               typedClass="button-popup"  
-              cont="Заказать звонок!" 
+              cont="Заказать звонок" 
               inHeader={true}
             />
             <span className={`${typedClass}__phone-text-num`}>+7 (925) 188-88-40</span>

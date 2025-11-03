@@ -12,7 +12,7 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.0549019608), 0 -1px rgba(255, 255, 255, 0.5019607843);
     color: #ffffff;
-    background: linear-gradient(to top left, #d9bc00 0%, #b49f13 100%);
+    background: linear-gradient(to top left, #fad907 0%, #b49f13 100%);
     transition: all 0.4s;
     @media only screen and (0 <= width <= 479px) {
         width: 100%;
@@ -31,7 +31,7 @@
         padding: 2px 14px;
         font-size: 12px;
         color: #ffffff;
-        background-color: #b49f13;
+        background-color: rgba(250, 217, 7, 0.45);
         border-radius: 50px;
         transition: all 0.4s;
         &:hover {

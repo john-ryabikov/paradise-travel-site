@@ -1,3 +1,4 @@
+import VideoBlock from "@/app/_UI/VideoBlock/VideoBlock";
 import MainContainer from "./_UI/MainContainer/MainContainer";
 import Header from "./_Sections/Header/Header";
 import Section_1 from "./_Sections/Section_1/Section_1";
@@ -14,8 +15,9 @@ export default function MainPage() {
 
   return (
     <>
-      <Header typedClass="header"/>
+      <VideoBlock/>
       <MainContainer>
+        <Header typedClass="header"/>
         <Section_1 typedClass="section-1"/>
         <Section_2 typedClass="section-2"/>
         <Section_3 typedClass="section-3"/>

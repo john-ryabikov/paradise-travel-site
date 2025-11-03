@@ -3,7 +3,7 @@ export const directions = [
       id: "Direction-1",
       country: "Россия",
       towns: "Сочи, Адлер, Красная поляна, Анапа, Геленджик",
-      price: "цена от 28 900 руб./чел",
+      price: "цена от 72 300 руб./чел",
       bg: "russia"
     },
     {
@@ -23,7 +23,7 @@ export const directions = [
     {
       id: "Direction-4",
       country: "Мальдивы",
-      price: "цена от 167 800 руб./чел",
+      price: "цена от 235 000 руб./чел",
       bg: "mal"
     },
     {

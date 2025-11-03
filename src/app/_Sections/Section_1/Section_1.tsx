@@ -1,7 +1,7 @@
 import Container from "@/app/_UI/Container/Container";
 import ButtonPopup from "@/app/_UI/ButtonPopup/ButtonPopup";
-import VideoBlock from "@/app/_UI/VideoBlock/VideoBlock";
 import AnimatedSection from "@/app/_UI/AnimatedTags/AnimatedSection";
+import MouseScrolling from "@/app/_UI/MouseScrolling/MouseScrolling";
 
 import "./Section_1.scss"
 
@@ -12,7 +12,6 @@ interface Props {
 export default function Section_1({ typedClass }: Props) {
   return (
     <AnimatedSection typedClass={typedClass} id="main">
-      <VideoBlock/>
       <Container typedClass={`${typedClass}__cont wrapper`}>
         <div className={`${typedClass}__main-cont`}>
           <h1 className={`${typedClass}__title-h1`}>Получите индивидуальный<br/>подбор тура</h1>
@@ -26,6 +25,7 @@ export default function Section_1({ typedClass }: Props) {
           </p>
         </div>
       </Container>
+      <MouseScrolling/>
     </AnimatedSection>
   )
 }

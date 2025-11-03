@@ -13,7 +13,7 @@ export default function Section_3({ typedClass }: Props) {
   return (
     <AnimatedSection typedClass={typedClass}>
       <Container typedClass={`${typedClass}__cont wrapper`}>
-        <h2 className={`${typedClass}__title-h2`}>Более 2000 туристов ежегодно<br/>доверяют нам свой отпуск</h2>
+        <h2 className={`${typedClass}__title-h2`}>Более 700 туристов ежегодно<br/>доверяют нам свой отпуск</h2>
         <div className={`${typedClass}__prems`}>
           {prems.map((prem) => (
             <div className={`${typedClass}__prem-card`} key={prem.id}>

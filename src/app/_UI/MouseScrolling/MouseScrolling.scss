@@ -1,0 +1,87 @@
+.mouse-scroll {
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    z-index: 9999;
+    transition: all 0.4s;
+    @media only screen and (0 <= width <= 479px) {
+        display: none;
+    }
+}
+.mouse-scroll .mouse {
+    height: 42px;
+    width: 22px;
+    border-radius: 15px;
+    transform: none;
+    border: 1px solid #ffffff;
+    top: 170px;
+}
+.mouse-scroll .down-arrow-1 {
+    margin-top: 6px;
+}
+.mouse-scroll .down-arrow-1, #mouse-scroll .down-arrow-2, #mouse-scroll .down-arrow-3 {
+    animation: mouse-scroll 1s infinite;
+}
+.mouse-croll .down-arrow-1 {
+    animation-delay: .1s;
+    animation-direction: alternate;
+}
+.mouse-scroll .down-arrow-2 {
+    animation-delay: .2s;
+    animation-direction: alternate;
+}
+.mouse-scroll .down-arrow-3 {
+    animation-delay: .3s;
+    animation-direction: alternate;
+}
+.mouse-scroll .mouse-in {
+    height: 5px;
+    width: 1px;
+    display: block; 
+    margin: 5px auto;
+    background: #ffffff;
+    position: relative;
+}
+.mouse-scroll .mouse-in {
+    animation: animated-mouse 1.2s ease infinite;
+}
+
+@keyframes animated-mouse {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+}
+@keyframes mouse-scroll {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    } 
+}
+@keyframes mouse-scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
