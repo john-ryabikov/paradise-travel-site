@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
-  distDir: 'out'
+  distDir: 'out',
 };
 
 export default nextConfig;
