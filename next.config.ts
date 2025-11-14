@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   distDir: 'out',
-  experimental: {globalNotFound: true}
+  skipTrailingSlashRedirect: true
 };
 
 export default nextConfig;
