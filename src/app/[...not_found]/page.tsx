@@ -5,5 +5,5 @@ export default function CatchAllPage() {
 }
 
 export async function generateStaticParams() {
-  return [];
+  return [{ not_found: [''] }];
 }
