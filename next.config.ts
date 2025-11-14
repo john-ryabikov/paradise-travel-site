@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  devIndicators: false,
-  reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
   distDir: 'out',
+  experimental: {globalNotFound: true}
 };
 
 export default nextConfig;
