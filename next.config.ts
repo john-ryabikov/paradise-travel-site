@@ -1,19 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  distDir: 'out',
   skipTrailingSlashRedirect: true,
-  async rewrites() {
-    return [
-      {
-        source: '/:path*',
-        destination: '/404',
-        has: [{ type: 'header', key: 'x-not-found', value: 'true' }]
-      }
-    ];
-  }
-};
+  distDir: 'out'
+}
 
-export default nextConfig;
+export default nextConfig
