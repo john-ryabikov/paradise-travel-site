@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   distDir: 'out',
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)']
+  async generateStaticParams() {
+    return {'/404': { page: '/404' }}
+  }
 }
 
 export default nextConfig
