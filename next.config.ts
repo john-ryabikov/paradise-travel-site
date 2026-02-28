@@ -1,9 +1,13 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  devIndicators: false,
-  reactStrictMode: true,
-  output: 'export'
-};
+  output: 'export',
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  distDir: 'out',
+  async generateStaticParams() {
+    return {'/404': { page: '/404' }}
+  }
+}
 
-export default nextConfig;
+export default nextConfig
