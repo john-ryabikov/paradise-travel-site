@@ -27,8 +27,8 @@ export default function Section_5({ typedClass }: Props) {
                     <a href="https://vk.com/id19714489" className={`${typedClass}__crew-vk`} target="_blank" rel="nofollow">
                         <img src="/img/Icons/vk_icon.svg" alt="VK"/>
                     </a>
-                    <a href="https://api.whatsapp.com/send?phone=79251888840" className={`${typedClass}__crew-whatsapp`} target="_blank" rel="nofollow">
-                        <img src="/img/Icons/whatsapp_icon.svg" alt="Whatsapp"/>
+                    <a href="https://max.ru/u/f9LHodD0cOJf9OCzEqtcrL83CQf8c6hMOZmUB8ihCNhg2pnGiVMTjbxaYWQ" className={`${typedClass}__crew-max`} target="_blank" rel="nofollow">
+                        <img src="/img/Icons/max_icon.svg" alt="MAX"/>
                     </a>
                 </p>
               </div>

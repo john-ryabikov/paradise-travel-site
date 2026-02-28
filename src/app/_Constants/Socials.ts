@@ -6,8 +6,8 @@ export const socials = [
     },
     {
         id: "Social-2",
-        href: "https://api.whatsapp.com/send?phone=79251888840",
-        icon: "/img/Icons/whatsapp_icon.svg",
+        href: "https://max.ru/u/f9LHodD0cOJf9OCzEqtcrL83CQf8c6hMOZmUB8ihCNhg2pnGiVMTjbxaYWQ",
+        icon: "/img/Icons/max_icon.svg",
     },
     {
         id: "Social-3",

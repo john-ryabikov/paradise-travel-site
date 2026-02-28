@@ -21,12 +21,8 @@ export const metadata: Metadata = {
   keywords: "Турагентство в Электростали, Турагентство Электросталь, Турагентство Электросталь Paradise Travel, Турагентство Paradise Travel",
   robots: "noyaca",
   generator: 'Next.js',
-  formatDetection: {
-    telephone: false,
-  },
-  verification: {
-    yandex: "15a0607f6836702d"
-  },
+  formatDetection: { telephone: false },
+  verification: { yandex: "15a0607f6836702d" },
   icons: {
     icon: [
       { url: '/favicon.png' }
