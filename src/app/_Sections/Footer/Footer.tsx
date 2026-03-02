@@ -13,7 +13,7 @@ export default function Footer({ typedClass }: Props) {
         <img className={`${typedClass}__img`} src="/img/Section-8/logo-footer.webp" alt="Paradise Travel"/>
         <p className={`${typedClass}__info`}>
           <span className={`${typedClass}__author`}>Дизайн и разработка сайта - <a className={`${typedClass}__author-link`} href="https://just-site.ru" target="_blank" rel="nofollow">Just-site.ru</a></span>
-          <span className={`${typedClass}__copyrights`}>&copy;Paradise Travel 2012-{new Date().getFullYear()}. <a className={`${typedClass}__copyrights-link`} href="mailto:paradisetravel.el@gmail.com" rel="nofollow">paradisetravel.el@gmail.com</a></span>
+          <span className={`${typedClass}__copyrights`}>&copy;Райское Путешествие 2012-{new Date().getFullYear()}. <a className={`${typedClass}__copyrights-link`} href="mailto:paradisetravel.el@gmail.com" rel="nofollow">paradisetravel.el@gmail.com</a></span>
         </p>
       </Container>
     </footer>
