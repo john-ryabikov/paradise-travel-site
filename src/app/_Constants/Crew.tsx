@@ -3,7 +3,7 @@ export const crew = [
         id: "Crew-1",
         image: "/img/Section-5/sveta_1-1-1.png",
         name: "Светлана",
-        post: <span>Основатель турагентства<br/>"Paradise Travel"</span>,
+        post: <span>Основатель турагентства<br/>"Райское Путешествие"</span>,
         whatsapp: "https://api.whatsapp.com/send?phone=79251888840",
         vk: "https://vk.com/id19714489"
     },
